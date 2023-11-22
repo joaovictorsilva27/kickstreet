@@ -94,9 +94,9 @@ footer img{
 
 
 .produtos {
-	width: 900px;
+	width: 1000px;
 	margin: 0 auto;
-	padding: 50px 0;
+	padding: 60px 0;
 }
 .produtos li {
     display: inline-block;
@@ -109,6 +109,12 @@ footer img{
     border: 2px solid black;
     border-radius: 10px;
 }
+
+.produtos li img{
+    width: 200px;
+    height: 200px;
+}
+
 .produtos li:hover{
     border-color: red;
 }
